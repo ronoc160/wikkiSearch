@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2015", 
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["DOM", "ES2015"],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*", "node_modules/@types"],
+  "exclude": ["node_modules"]
+}
